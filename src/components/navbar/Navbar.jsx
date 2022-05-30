@@ -2,7 +2,6 @@ import "./navbar.scss";
 
 export default function NavBar() {
   const brandName = "Natalie Karneef Meditation";
-  const home = "Home";
   const individual = "Individual";
   const group = "Group";
   const corporate = "Corporate";
@@ -24,27 +23,27 @@ export default function NavBar() {
       <div class="collapse navbar-collapse" id="navLinks">
         <ul class="navbar-nav">
           <li>
-            <a href="" class="nav-link">
+            <a href="#individual" class="nav-link">
               {individual}
             </a>
           </li>
           <li>
-            <a href="" class="nav-link">
+            <a href="#group" class="nav-link">
               {group}
             </a>
           </li>
           <li>
-            <a href="" class="nav-link">
+            <a href="#corporate" class="nav-link">
               {corporate}
             </a>
           </li>
           <li>
-            <a href="" class="nav-link">
+            <a href="#contact" class="nav-link">
               {contact}
             </a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link">
+            <a href="#about" class="nav-link">
               {about}
             </a>
           </li>
