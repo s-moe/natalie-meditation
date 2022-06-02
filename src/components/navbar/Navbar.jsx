@@ -8,42 +8,45 @@ export default function NavBar() {
   const about = "About";
   const contact = "Contact";
   return (
-    <nav id="navbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
-      <a href="#home" class="navbar-brand">
+    <nav
+      id="navbar"
+      className="navbar navbar-dark navbar-expand-md py-0 fixed-top"
+    >
+      <a href="#home" className="navbar-brand">
         {brandName}
       </a>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         data-toggle="collapse"
         data-target="#navLinks"
         aria-label="toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navLinks">
-        <ul class="navbar-nav">
+      <div className="collapse navbar-collapse" id="navLinks">
+        <ul className="navbar-nav">
           <li>
-            <a href="#individual" class="nav-link">
+            <a href="#individual" className="nav-link">
               {individual}
             </a>
           </li>
           <li>
-            <a href="#group" class="nav-link">
+            <a href="#group" className="nav-link">
               {group}
             </a>
           </li>
           <li>
-            <a href="#corporate" class="nav-link">
+            <a href="#corporate" className="nav-link">
               {corporate}
             </a>
           </li>
           <li>
-            <a href="#contact" class="nav-link">
+            <a href="#contact" className="nav-link">
               {contact}
             </a>
           </li>
-          <li class="nav-item">
-            <a href="#about" class="nav-link">
+          <li className="nav-item">
+            <a href="#about" className="nav-link">
               {about}
             </a>
           </li>
