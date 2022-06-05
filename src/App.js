@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import Individual from "./components/individual/Individual";
 import Group from "./components/group/Group";
 import Corporate from "./components/corporate/Corporate";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Group />
         <Corporate />
         <About />
+        <Contact />
       </div>
     </div>
   );

@@ -40,14 +40,14 @@ export default function NavBar() {
               {corporate}
             </a>
           </li>
-          <li>
-            <a href="#contact" className="nav-link">
-              {contact}
-            </a>
-          </li>
           <li className="nav-item">
             <a href="#about" className="nav-link">
               {about}
+            </a>
+          </li>
+          <li>
+            <a href="#contact" className="nav-link">
+              {contact}
             </a>
           </li>
         </ul>
