@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.scss";
+import Form from "./Form.jsx";
 
 export default function Contact() {
   return (
@@ -7,7 +8,7 @@ export default function Contact() {
       <div class="row align-items-center contact-form">
         <div class="col-md-6 order-2 order-md-1">
           <img src="" alt="" class="img-fluid" />
-          Contact form
+          <Form />
         </div>
         <div class="col-md-6 text-center order-1 order-md-2 contact-info">
           <div class="row justify-content-center">
