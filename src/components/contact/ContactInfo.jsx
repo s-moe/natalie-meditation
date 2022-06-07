@@ -7,6 +7,7 @@ import React from "react";
 export default function ContactInfo() {
   const emailAddress = "natalie@nataliekarneef.com";
   const location = "Istanbul, Turkey";
+  const phoneNumber = "+ 1 425 923 9939";
   return (
     <div className="contactInfoItem">
       <div className="info" id="mail">
@@ -18,6 +19,11 @@ export default function ContactInfo() {
         {" "}
         <PersonPin className="icon" />
         <span className="text">{location}</span>
+      </div>
+      <div className="info" id="phoneNumber">
+        {" "}
+        <Phone className="icon" />
+        <span className="text"> {phoneNumber}</span>
       </div>
     </div>
   );
