@@ -8,8 +8,10 @@ export default function ContactInfo() {
   const emailAddress = "natalie@nataliekarneef.com";
   const location = "Istanbul, Turkey";
   const phoneNumber = "+ 1 425 923 9939";
+  const contactMe = "Contact Me";
   return (
     <div className="contactInfoItem">
+      <h2>{contactMe}</h2>
       <div className="info" id="mail">
         {" "}
         <Mail className="icon" />
