@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.scss";
+import ContactInfo from "./ContactInfo";
 import Form from "./Form.jsx";
 
 export default function Contact() {
@@ -13,9 +14,7 @@ export default function Contact() {
         <div class="col-md-6 text-center order-1 order-md-2 contact-info">
           <div class="row justify-content-center">
             <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-              <h2 class="">MUSEUM OF CANDY</h2>
-              <img src="" alt="" class="d-none d-lg-inline" />
-              <p class="lead">This is content.</p>
+              <ContactInfo />
             </div>
           </div>
         </div>
