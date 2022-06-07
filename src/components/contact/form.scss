@@ -1,7 +1,12 @@
 form {
   width: 70%;
   height: 100%;
-  background-image: linear-gradient(to right bottom, #fbee8c 50%, #ff91af);
+  background-image: linear-gradient(
+    to right bottom,
+    #fbee8c 50%,
+    rgb(199, 199, 248),
+    #ff91af
+  );
   display: flex;
   flex-direction: column;
   align-items: center;
