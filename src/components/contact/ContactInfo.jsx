@@ -10,23 +10,25 @@ export default function ContactInfo() {
   const phoneNumber = "+ 1 425 923 9939";
   const contactMe = "Contact Me";
   return (
-    <div className="contactInfoItem">
-      <h2>{contactMe}</h2>
-      <div className="info" id="mail">
-        {" "}
-        <Mail className="icon" />
-        <span className="text">{emailAddress} </span>
+    <>
+      <div className="contactInfoItem">
+        <h2>{contactMe}</h2>
+        <div className="info" id="mail">
+          {" "}
+          <Mail className="icon" />
+          <span className="text">{emailAddress} </span>
+        </div>
+        <div className="info" id="myLocation">
+          {" "}
+          <PersonPin className="icon" />
+          <span className="text">{location}</span>
+        </div>
+        <div className="info" id="phoneNumber">
+          {" "}
+          <Phone className="icon" />
+          <span className="text"> {phoneNumber}</span>
+        </div>
       </div>
-      <div className="info" id="myLocation">
-        {" "}
-        <PersonPin className="icon" />
-        <span className="text">{location}</span>
-      </div>
-      <div className="info" id="phoneNumber">
-        {" "}
-        <Phone className="icon" />
-        <span className="text"> {phoneNumber}</span>
-      </div>
-    </div>
+    </>
   );
 }
