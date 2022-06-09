@@ -14,6 +14,9 @@ export default function Home() {
               <h2 className="">HOME</h2>
 
               <p className="lead">This is content.</p>
+              <button type="button" className="btn btn-outline-secondary">
+                Primary
+              </button>
             </div>
           </div>
         </div>
