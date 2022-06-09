@@ -6,7 +6,7 @@ export default function Home() {
     <section className="container-fluid px-0" id="home">
       <div className="row align-items-center content">
         <div className="col-md-6 order-2 order-md-1">
-          <img src="assets/rocks.jpg" alt="" />
+          <img src="assets/rocks.jpg" alt="" className="img-fluid" />
         </div>
         <div className="col-md-6 text-center order-1 order-md-2">
           <div className="row justify-content-center">
