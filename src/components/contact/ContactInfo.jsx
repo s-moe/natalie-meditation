@@ -1,7 +1,5 @@
 import "./contact-info.scss";
-import { Event, Mail } from "@material-ui/icons";
-import { PersonPin } from "@material-ui/icons";
-import { Phone } from "@material-ui/icons";
+import { Event, Mail, PersonPin, Phone } from "@material-ui/icons";
 import React from "react";
 import Calendly from "../Calendly";
 
