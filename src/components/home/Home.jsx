@@ -16,7 +16,7 @@ export default function Home() {
   };
 
   return (
-    <>
+    <div>
       <section className="container-fluid px-0" id="home">
         <div className="row align-items-center content">
           <div className="col-md-6 order-2 order-md-1">
@@ -43,8 +43,8 @@ export default function Home() {
       <Individual />
       <Group />
       <Corporate />
-      <About />
       <Contact />
-    </>
+      <About />
+    </div>
   );
 }
