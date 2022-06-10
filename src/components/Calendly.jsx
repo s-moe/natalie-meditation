@@ -9,7 +9,7 @@ export default function Calendly() {
         target="_blank"
         rel="noreferrer"
       >
-        Book a consultation
+        Book a free consultation
       </a>
     </div>
   );
