@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import CalendlyLink from "../CalendlyLink";
 import "./about.scss";
 
 export default function About() {
@@ -26,6 +27,9 @@ export default function About() {
                 onClick={routeChange}
               >
                 Contact me
+              </button>
+              <button type="button" className="btn btn-outline-secondary">
+                <CalendlyLink />
               </button>
             </div>
           </div>

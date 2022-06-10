@@ -1,4 +1,5 @@
 import React from "react";
+import CalendlyLink from "../CalendlyLink";
 import "./group.scss";
 
 export default function Group() {
@@ -14,6 +15,7 @@ export default function Group() {
               <h2 className="">GROUP</h2>
 
               <p className="lead">This is content.</p>
+              <CalendlyLink />
             </div>
           </div>
         </div>

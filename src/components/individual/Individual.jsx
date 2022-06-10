@@ -1,4 +1,5 @@
 import React from "react";
+import CalendlyLink from "../CalendlyLink";
 import "./individual.scss";
 
 export default function Individual() {
@@ -13,6 +14,7 @@ export default function Individual() {
             <div className="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2 className="">INDIVIDUAL</h2>
               <p className="lead">This is content.</p>
+              <CalendlyLink />
             </div>
           </div>
         </div>

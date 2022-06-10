@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Calendly() {
+export default function CalendlyLink() {
   return (
     <div>
       <a

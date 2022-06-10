@@ -1,5 +1,5 @@
 import React from "react";
-import Calendly from "../Calendly";
+import CalendlyLink from "../CalendlyLink";
 import "./corporate.scss";
 
 export default function Corporate() {
@@ -14,7 +14,7 @@ export default function Corporate() {
             <div className="col-10 col-lg-8 blurb mb-5 mb-md-0">
               <h2 className="">CORPORATE</h2>
               <p className="lead">This is content.</p>
-              <Calendly />
+              <CalendlyLink />
             </div>
           </div>
         </div>

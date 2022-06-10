@@ -1,7 +1,8 @@
 import "./contact-info.scss";
 import { Event, Mail, PersonPin, Phone } from "@material-ui/icons";
 import React from "react";
-import Calendly from "../Calendly";
+// import CalendlyLink from "../CalendlyLink";
+import CalendlyWidget from "../CalendlyWidget";
 
 export default function ContactInfo() {
   const emailAddress = "natalie@nataliekarneef.com";
@@ -17,23 +18,20 @@ export default function ContactInfo() {
           <Mail className="icon" />
           <span className="text">{emailAddress} </span>
         </div>
-        <div className="info" id="myLocation">
+        {/* <div className="info" id="myLocation">
           {" "}
           <PersonPin className="icon" />
           <span className="text">{location}</span>
-        </div>
-        <div className="info" id="phoneNumber">
+        </div> */}
+        {/* <div className="info" id="phoneNumber">
           {" "}
           <Phone className="icon" />
           <span className="text"> {phoneNumber}</span>
-        </div>
-        <div className="info" id="phoneNumber">
+        </div> */}
+
+        <div className="info" id="calendly-widget">
           {" "}
-          <Event className="icon" />
-          <span className="text">
-            {" "}
-            <Calendly />
-          </span>
+          <CalendlyWidget />
         </div>
       </div>
     </>
