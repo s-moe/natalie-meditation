@@ -6,7 +6,7 @@ import "./home.scss";
 export default function Home() {
   let navigate = useNavigate();
   const routeChange = () => {
-    let path = `newPath`;
+    let path = "/contact";
     navigate(path);
   };
 

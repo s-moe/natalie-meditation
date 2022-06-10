@@ -12,7 +12,7 @@ export default function NavBar() {
       id="navbar"
       className="navbar navbar-dark navbar-expand-md py-0 fixed-top"
     >
-      <a href="#home" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         {brandName}
       </a>
       <button
@@ -26,27 +26,27 @@ export default function NavBar() {
       <div className="collapse navbar-collapse" id="navLinks">
         <ul className="navbar-nav">
           <li>
-            <a href="#individual" className="nav-link">
+            <a href="/individual" className="nav-link">
               {individual}
             </a>
           </li>
           <li>
-            <a href="#group" className="nav-link">
+            <a href="/group" className="nav-link">
               {group}
             </a>
           </li>
           <li>
-            <a href="#corporate" className="nav-link">
+            <a href="/corporate" className="nav-link">
               {corporate}
             </a>
           </li>
           <li className="nav-item">
-            <a href="#about" className="nav-link">
+            <a href="/about" className="nav-link">
               {about}
             </a>
           </li>
           <li>
-            <a href="#contact" className="nav-link">
+            <a href="/contact" className="nav-link">
               {contact}
             </a>
           </li>
