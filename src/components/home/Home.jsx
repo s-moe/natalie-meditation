@@ -1,8 +1,15 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./home.scss";
 
 export default function Home() {
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = `newPath`;
+    navigate(path);
+  };
+
   return (
     <section className="container-fluid px-0" id="home">
       <div className="row align-items-center content">
@@ -15,8 +22,12 @@ export default function Home() {
               <h2 className="">HOME</h2>
 
               <p className="lead">This is content.</p>
-              <button type="button" className="btn btn-outline-secondary">
-                Primary
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                onClick={routeChange}
+              >
+                Contact me
               </button>
             </div>
           </div>
