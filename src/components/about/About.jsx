@@ -3,6 +3,11 @@ import { useNavigate } from "react-router-dom";
 import "./about.scss";
 
 export default function About() {
+  let navigate = useNavigate();
+  const routeChange = () => {
+    let path = "/contact";
+    navigate(path);
+  };
   return (
     <section className="container-fluid px-0" id="about">
       <div className="row align-items-center content">
@@ -15,6 +20,13 @@ export default function About() {
               <h2 className="">ABOUT</h2>
 
               <p className="lead">This is content.</p>
+              <button
+                type="button"
+                className="btn btn-outline-secondary"
+                onClick={routeChange}
+              >
+                Contact me
+              </button>
             </div>
           </div>
         </div>
