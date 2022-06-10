@@ -20,14 +20,6 @@ function App() {
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/* <div className="sections">
-        <Home />
-        <Individual />
-        <Group />
-        <Corporate />
-        <About />
-        <Contact />
-      </div> */}
     </div>
   );
 }
