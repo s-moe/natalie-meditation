@@ -1,8 +1,9 @@
 import "./contact-info.scss";
-import { Mail } from "@material-ui/icons";
+import { Event, Mail } from "@material-ui/icons";
 import { PersonPin } from "@material-ui/icons";
 import { Phone } from "@material-ui/icons";
 import React from "react";
+import Calendly from "../Calendly";
 
 export default function ContactInfo() {
   const emailAddress = "natalie@nataliekarneef.com";
@@ -27,6 +28,14 @@ export default function ContactInfo() {
           {" "}
           <Phone className="icon" />
           <span className="text"> {phoneNumber}</span>
+        </div>
+        <div className="info" id="phoneNumber">
+          {" "}
+          <Event className="icon" />
+          <span className="text">
+            {" "}
+            <Calendly />
+          </span>
         </div>
       </div>
     </>
