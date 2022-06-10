@@ -5,7 +5,7 @@ import About from "./components/about/About";
 import Home from "./components/home/Home";
 import Individual from "./components/individual/Individual";
 import Group from "./components/group/Group";
-// import Corporate from "./components/corporate/Corporate";
+import Corporate from "./components/corporate/Corporate";
 import Contact from "./components/contact/Contact";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/individual" element={<Individual />} />
         <Route path="/group" element={<Group />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/corporate" element={<Corporate />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       {/* <div className="sections">
