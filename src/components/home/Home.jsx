@@ -43,8 +43,9 @@ export default function Home() {
       <Individual />
       <Group />
       <Corporate />
-      <Contact />
+
       <About />
+      <Contact />
     </div>
   );
 }

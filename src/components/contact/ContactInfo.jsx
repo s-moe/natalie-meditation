@@ -28,9 +28,7 @@ export default function ContactInfo() {
           <Phone className="icon" />
           <span className="text"> {phoneNumber}</span>
         </div> */}
-
         <div className="info" id="calendly-widget">
-          {" "}
           <CalendlyWidget />
         </div>
       </div>
