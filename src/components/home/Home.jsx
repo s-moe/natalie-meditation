@@ -5,7 +5,6 @@ import Corporate from "../corporate/Corporate";
 import About from "../about/About";
 import Contact from "../contact/Contact";
 import { useNavigate } from "react-router-dom";
-
 import "./home.scss";
 
 export default function Home() {
@@ -14,6 +13,7 @@ export default function Home() {
     let path = "/contact";
     navigate(path);
   };
+  const home = "HOME";
 
   return (
     <div>
@@ -25,7 +25,7 @@ export default function Home() {
           <div className="col-md-6 text-center order-1 order-md-2">
             <div className="row justify-content-center">
               <div className="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                <h2 className="">HOME</h2>
+                <h2 className="">{{ home }}</h2>
 
                 <p className="lead">This is content.</p>
                 <button
