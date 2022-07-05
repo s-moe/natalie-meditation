@@ -12,7 +12,7 @@ export default function NavBar() {
       id="navbar"
       className="navbar navbar-dark navbar-expand-md py-0 fixed-top"
     >
-      <a href="/home" className="navbar-brand">
+      <a href="/" className="navbar-brand">
         {brandName}
       </a>
       <button
