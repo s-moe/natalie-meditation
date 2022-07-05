@@ -33,7 +33,7 @@ export default function Form() {
 
   return (
     <>
-      <form className="form" onSubmit={handleSubmit}>
+      <form className="form img-fluid" onSubmit={handleSubmit}>
         <div className="form-group">
           <input
             type="text"
