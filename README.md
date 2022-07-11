@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## About this project
 
+This project is for Natalie Karneef, a meditation instructor.
+
 ## Available Scripts
 
 In the project directory, you can run:
